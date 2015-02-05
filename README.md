@@ -3,3 +3,4 @@
 > Convert hex to rgb and vice-versa
 
 A simple [React](http://facebook.github.io/react/) HEX to RGB Color Converter.
+These are my first steps trying out React. I'm open for optimizations. Feel free to [give me a shout](https://twitter.com/andreruffert).
