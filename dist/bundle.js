@@ -58,7 +58,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/colors.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
 	{
 		"hex": "#EFDECD",
 		"name": "Almond",
@@ -19132,6 +19132,12 @@ module.exports = HextoRgb;
 },{"../component/github-link":"/Users/andreruffert/GitHub/hex-to-rgb/src/component/github-link.js","../utils":"/Users/andreruffert/GitHub/hex-to-rgb/src/utils.js","crayola":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/index.js","hex-rgb":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/hex-rgb/index.js","react":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/react.js","rgb-hex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/rgb-hex/index.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/src/utils.js":[function(require,module,exports){
 "use strict";
 
+/**
+ * Check if a string is a valid HEX code
+ *
+ * @param  {String}  str  e.g. #000, 000
+ * @return {Boolean}
+ */
 function isHex(str) {
   if (typeof str !== "string") {
     throw new TypeError("Expected a string");
@@ -19140,6 +19146,12 @@ function isHex(str) {
   return /^(?:[#]?[0-9A-F]{3}){1,2}$/i.test(str);
 }
 
+/**
+ * Check if a string is a valid RGB code
+ *
+ * @param  {String}  str  e.g. rgb(0,0,0), 0,0,0
+ * @return {Boolean}
+ */
 function isRgb(str) {
   if (typeof str !== "string") {
     throw new TypeError("Expected a string");
@@ -19148,14 +19160,20 @@ function isRgb(str) {
   return /^(rgb\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3})\)|(\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3}))$/i.test(str);
 }
 
+/**
+ * Get the Luminance of a RGB code
+ *
+ * @param  {String}  str  e.g. rgb(0,0,0), 0,0,0
+ * @return {Integer}
+ *
+ * https://en.wikipedia.org/wiki/Relative_luminance
+ */
 function getLuma(str) {
   if (typeof str !== "string") {
     throw new TypeError("Expected a string");
   }
 
   var rgb = str.replace(/[^\d,]/g, "").split(",");
-
-  // https://en.wikipedia.org/wiki/Relative_luminance
   return parseInt(0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]);
 }
 
