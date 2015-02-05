@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Convert hex to rgb and vice-versa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HEX to RGB Color Converter</title>
+
+  <link rel="stylesheet" href="">
+  <style>
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    html,
+    body {
+      color: #222;
+      height: 100%;
+      margin: 0;
+    }
+    input {
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid rgba(34, 34, 34, .3);
+      border-radius: 0;
+      font-size: 2.5em;
+      padding: 0;
+      padding-bottom: 1px;
+      margin: .5em 0 .25em;
+      width: 100%;
+      -webkit-transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+              transition: border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    input:focus {
+      border-width: 2px;
+      border-color: rgba(34, 34, 34, .9);
+      padding: 0;
+      outline: 0;
+    }
+
+    ::-webkit-input-placeholder { color: #222; }
+              :-moz-placeholder { color: #222; }
+             ::-moz-placeholder { color: #222; }
+         :-ms-input-placeholder { color: #222; }
+
+    [data-state-inverted="true"] > * {
+      -webkit-filter: invert(100%);
+              filter: invert(100%);
+    }
+
+    .main {
+      height: 100%;
+    }
+
+    .main__control {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .main__github {
+      display: inline-block;
+      margin-top: 100px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
