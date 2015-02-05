@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -57,8 +57,8 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/colors.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/colors.json":[function(require,module,exports){
+module.exports=module.exports=[
 	{
 		"hex": "#EFDECD",
 		"name": "Almond",
@@ -726,7 +726,7 @@ module.exports=module.exports=module.exports=module.exports=module.exports=modul
 	}
 ]
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/index.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/index.js":[function(require,module,exports){
 'use strict';
 var colors = require('./colors.json');
 var uniqueRandom = require('unique-random')(0, colors.length - 1);
@@ -737,7 +737,7 @@ module.exports = function () {
 
 module.exports.colors = colors;
 
-},{"./colors.json":"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/colors.json","unique-random":"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/node_modules/unique-random/unique-random.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/node_modules/unique-random/unique-random.js":[function(require,module,exports){
+},{"./colors.json":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/colors.json","unique-random":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/node_modules/unique-random/unique-random.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/node_modules/unique-random/unique-random.js":[function(require,module,exports){
 /*!
 	unique-random
 	Generate random numbers that are consecutively unique
@@ -763,7 +763,7 @@ module.exports.colors = colors;
 	}
 })();
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/hex-rgb/index.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/hex-rgb/index.js":[function(require,module,exports){
 'use strict';
 module.exports = function (hex) {
 	if (typeof hex !== 'string') {
@@ -781,7 +781,7 @@ module.exports = function (hex) {
 	return [num >> 16, num >> 8 & 255, num & 255];
 };
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -808,7 +808,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/focusNode.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/focusNode.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -1030,7 +1030,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1149,7 +1149,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -1284,7 +1284,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -1384,7 +1384,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1766,7 +1766,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1791,7 +1791,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2050,7 +2050,7 @@ var CompositionEventPlugin = {
 
 module.exports = CompositionEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2225,7 +2225,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2524,7 +2524,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2721,7 +2721,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2907,7 +2907,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2947,7 +2947,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3087,7 +3087,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3159,7 +3159,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -3249,7 +3249,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3525,7 +3525,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3805,7 +3805,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4026,7 +4026,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4168,7 +4168,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4213,7 +4213,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4405,7 +4405,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4561,7 +4561,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -4611,7 +4611,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4669,7 +4669,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -4716,7 +4716,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4832,7 +4832,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5020,7 +5020,7 @@ React.version = '0.12.2';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/onlyChild.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/onlyChild.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5063,7 +5063,7 @@ var ReactBrowserComponentMixin = {
 module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'))
-},{"./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -5418,7 +5418,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isEventSupported.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isEventSupported.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5568,7 +5568,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6011,7 +6011,7 @@ var ReactComponent = {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -6133,7 +6133,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'))
-},{"./ReactDOMIDOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/setInnerHTML.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/setInnerHTML.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7573,7 +7573,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js","./mapObject":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js","./mapObject":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7635,7 +7635,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7669,7 +7669,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7852,7 +7852,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/mapObject.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/mapObject.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7917,7 +7917,7 @@ var ReactDOMButton = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8404,7 +8404,7 @@ assign(
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8454,7 +8454,7 @@ var ReactDOMForm = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8640,7 +8640,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/setInnerHTML.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/setInnerHTML.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8688,7 +8688,7 @@ var ReactDOMImg = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8866,7 +8866,7 @@ var ReactDOMInput = ReactCompositeComponent.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8919,7 +8919,7 @@ var ReactDOMOption = ReactCompositeComponent.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9103,7 +9103,7 @@ var ReactDOMSelect = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9312,7 +9312,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9453,7 +9453,7 @@ var ReactDOMTextarea = ReactCompositeComponent.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9526,7 +9526,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9655,7 +9655,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9915,7 +9915,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/performanceNow.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/performanceNow.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10121,7 +10121,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -10367,7 +10367,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./ReactContext":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -10649,7 +10649,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -10726,7 +10726,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10758,7 +10758,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10808,7 +10808,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10992,7 +10992,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11032,7 +11032,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11168,7 +11168,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/containsNode.js","./focusNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getActiveElement.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/containsNode.js","./focusNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getActiveElement.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11503,7 +11503,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -11750,7 +11750,7 @@ ReactLegacyElementFactory._isLegacyCallWarningEnabled = true;
 module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11798,7 +11798,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/adler32.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/adler32.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12496,7 +12496,7 @@ ReactMount.renderComponent = deprecated(
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/containsNode.js","./deprecated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/containsNode.js","./deprecated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12924,7 +12924,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12957,7 +12957,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -13030,7 +13030,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13186,7 +13186,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./emptyObject":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyObject.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyObject.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13270,7 +13270,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13437,7 +13437,7 @@ var ReactPropTransferer = {
 module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./joinClasses":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/joinClasses.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./joinClasses":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/joinClasses.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13465,7 +13465,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13489,7 +13489,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13843,7 +13843,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13899,7 +13899,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14075,7 +14075,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Transaction.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Transaction.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14106,7 +14106,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14186,7 +14186,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -14299,7 +14299,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14405,7 +14405,7 @@ ReactTextComponentFactory.type = ReactTextComponent;
 
 module.exports = ReactTextComponentFactory;
 
-},{"./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14695,7 +14695,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Transaction.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Transaction.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14787,7 +14787,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/DOMProperty.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/DOMProperty.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14982,7 +14982,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shallowEqual.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shallowEqual.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15013,7 +15013,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15441,7 +15441,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","./keyOf":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","./keyOf":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15487,7 +15487,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 
-},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15533,7 +15533,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticCompositionEvent;
 
 
-},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15572,7 +15572,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15730,7 +15730,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventTarget.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventTarget.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15769,7 +15769,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -15816,7 +15816,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticInputEvent;
 
 
-},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15903,7 +15903,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15986,7 +15986,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16034,7 +16034,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventModifierState.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16096,7 +16096,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventTarget.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventTarget.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16157,7 +16157,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16398,7 +16398,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16430,7 +16430,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{"./getUnboundedScrollPosition":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -16496,7 +16496,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16530,7 +16530,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16562,7 +16562,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -16604,7 +16604,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/camelize.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/camelize.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16648,7 +16648,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isTextNode.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isTextNode.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16734,7 +16734,7 @@ function createArrayFrom(obj) {
 
 module.exports = createArrayFrom;
 
-},{"./toArray":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/toArray.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/toArray.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16795,7 +16795,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16885,7 +16885,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16943,7 +16943,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/CSSProperty.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/CSSProperty.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16994,7 +16994,7 @@ function deprecated(namespace, oldName, newName, ctx, fn) {
 module.exports = deprecated;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/Object.assign.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/Object.assign.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17028,7 +17028,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17052,7 +17052,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17093,7 +17093,7 @@ function escapeTextForBrowser(text) {
 
 module.exports = escapeTextForBrowser;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17162,7 +17162,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./ReactTextComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -17191,7 +17191,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17222,7 +17222,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17251,7 +17251,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17303,7 +17303,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17408,7 +17408,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventCharCode.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventCharCode.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -17455,7 +17455,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17486,7 +17486,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17603,7 +17603,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17678,7 +17678,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17713,7 +17713,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17750,7 +17750,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17790,7 +17790,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17823,7 +17823,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17864,7 +17864,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/hyphenate.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/hyphenate.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17978,7 +17978,7 @@ function instantiateReactComponent(element, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18035,7 +18035,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18100,7 +18100,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18128,7 +18128,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18172,7 +18172,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18197,7 +18197,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/isNode.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/isNode.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18238,7 +18238,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18293,7 +18293,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18329,7 +18329,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18382,7 +18382,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18416,7 +18416,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18450,7 +18450,7 @@ function monitorCodeUse(eventName, data) {
 module.exports = monitorCodeUse;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18490,7 +18490,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18518,7 +18518,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18546,7 +18546,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/performance.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/performance.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18624,7 +18624,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18668,7 +18668,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18706,7 +18706,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18778,7 +18778,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18961,7 +18961,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/invariant.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -19006,10 +19006,10 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/emptyFunction.js","_process":"/Users/andreruffert/GitHub/hex2rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/emptyFunction.js","_process":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/browserify/node_modules/process/browser.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/lib/React.js"}],"/Users/andreruffert/GitHub/hex2rgb/node_modules/rgb-hex/index.js":[function(require,module,exports){
+},{"./lib/React":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/lib/React.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/rgb-hex/index.js":[function(require,module,exports){
 'use strict';
 module.exports = function (red, green, blue) {
 	if ((typeof red !== 'number' || typeof green !== 'number' || typeof blue !== 'number') &&
@@ -19020,7 +19020,7 @@ module.exports = function (red, green, blue) {
 	return ((blue | green << 8 | red << 16) | 1 << 24).toString(16).slice(1);
 };
 
-},{}],"/Users/andreruffert/GitHub/hex2rgb/src/app.js":[function(require,module,exports){
+},{}],"/Users/andreruffert/GitHub/hex-to-rgb/src/app.js":[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -19090,7 +19090,7 @@ var Hex2Rgb = React.createClass({
         React.createElement("input", { type: "text", name: "hex", value: this.state.output.hex, onChange: this.handleChange, placeholder: "hex", autoFocus: "true", autoComplete: "off", autoCorrect: "off", autoCapitalize: "off", spellCheck: "false" }),
         React.createElement("br", null),
         React.createElement("input", { type: "text", name: "rgb", value: this.state.output.rgb, onChange: this.handleChange, placeholder: "rgb", autoComplete: "off", autoCorrect: "off", autoCapitalize: "off", spellCheck: "false" }),
-        React.createElement(Github, null)
+        React.createElement(Github, { url: "https://github.com/andreruffert/hex-to-rgb" })
       )
     );
   }
@@ -19101,7 +19101,7 @@ var Github = React.createClass({
   render: function () {
     return React.createElement(
       "a",
-      { href: "#", className: "main__github" },
+      { href: this.props.url, className: "main__github" },
       React.createElement(
         "svg",
         { version: "1.1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", viewBox: "0 0 512 512", preserveAspectRatio: "xMinYMin meet", width: "64", height: "64" },
@@ -19113,7 +19113,7 @@ var Github = React.createClass({
 
 React.render(React.createElement(Hex2Rgb, null), document.body);
 
-},{"./utils":"/Users/andreruffert/GitHub/hex2rgb/src/utils.js","crayola":"/Users/andreruffert/GitHub/hex2rgb/node_modules/crayola/index.js","hex-rgb":"/Users/andreruffert/GitHub/hex2rgb/node_modules/hex-rgb/index.js","react":"/Users/andreruffert/GitHub/hex2rgb/node_modules/react/react.js","rgb-hex":"/Users/andreruffert/GitHub/hex2rgb/node_modules/rgb-hex/index.js"}],"/Users/andreruffert/GitHub/hex2rgb/src/utils.js":[function(require,module,exports){
+},{"./utils":"/Users/andreruffert/GitHub/hex-to-rgb/src/utils.js","crayola":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/index.js","hex-rgb":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/hex-rgb/index.js","react":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/react/react.js","rgb-hex":"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/rgb-hex/index.js"}],"/Users/andreruffert/GitHub/hex-to-rgb/src/utils.js":[function(require,module,exports){
 "use strict";
 
 function isHex(str) {
@@ -19149,4 +19149,4 @@ module.exports = {
   getLuma: getLuma
 };
 
-},{}]},{},["/Users/andreruffert/GitHub/hex2rgb/src/app.js"]);
+},{}]},{},["/Users/andreruffert/GitHub/hex-to-rgb/src/app.js"]);
