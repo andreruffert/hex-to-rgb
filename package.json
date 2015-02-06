@@ -26,7 +26,7 @@
     "watchify": "^2.3.0"
   },
   "scripts": {
-    "watch": "watchify -t 6to5ify ./src/app.js -o ./dist/bundle.js -v",
-    "serve": "http-server -p 9090 ./ & npm run watch"
+    "start": "npm run watch & http-server -p 9090 ./",
+    "watch": "watchify -t 6to5ify ./src/app.js -o ./dist/bundle.js -v"
   }
 }
