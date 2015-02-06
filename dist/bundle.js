@@ -58,7 +58,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/colors.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=module.exports=[
+module.exports=module.exports=module.exports=[
 	{
 		"hex": "#EFDECD",
 		"name": "Almond",
@@ -19038,7 +19038,7 @@ var GitHubLink = React.createClass({
   render: function () {
     return React.createElement(
       "a",
-      { href: this.props.url, className: "main__github" },
+      { href: this.props.url, className: "main__github-link" },
       React.createElement(
         "svg",
         { version: "1.1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", viewBox: "0 0 512 512", preserveAspectRatio: "xMinYMin meet", width: "64", height: "64" },
