@@ -58,7 +58,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],"/Users/andreruffert/GitHub/hex-to-rgb/node_modules/crayola/colors.json":[function(require,module,exports){
-module.exports=module.exports=module.exports=[
+module.exports=module.exports=[
 	{
 		"hex": "#EFDECD",
 		"name": "Almond",
@@ -19109,7 +19109,7 @@ var HextoRgb = React.createClass({
   render: function () {
     var inverted = this.state.luma < 100 ? true : false;
     var style = {
-      background: this.state.background
+      backgroundColor: this.state.background
     };
 
     return React.createElement(

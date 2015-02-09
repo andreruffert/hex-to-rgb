@@ -53,7 +53,7 @@ var HextoRgb = React.createClass({
   render: function() {
     var inverted = (this.state.luma < 100) ? true : false;
     var style = {
-      background: this.state.background
+      backgroundColor: this.state.background
     };
 
     return (
