@@ -16,7 +16,7 @@
   "dependencies": {
     "crayola": "0.0.1",
     "hex-rgb": "^1.0.0",
-    "react": "^0.12.2",
+    "react": "^16.13.1",
     "rgb-hex": "^1.0.0"
   },
   "devDependencies": {
